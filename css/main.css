@@ -1,0 +1,42 @@
+body {
+	font-family: 'Arial', sans-serif;
+	padding: 0;
+	color: #000000;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	margin: 0;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 1.3em;
+}
+
+h1 {
+	font-size: 43px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 70px
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+.header{
+	background: url(../img/header.jpg) no-repeat center center / cover;
+}
